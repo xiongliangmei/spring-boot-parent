@@ -2,9 +2,12 @@ package com.xiongliangmei;
 
 import com.xiongliangmei.dao.UserRepository;
 import com.xiongliangmei.entity.User;
+import org.apache.lucene.search.Sort;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.query.WildcardQueryBuilder;
+import org.elasticsearch.search.sort.SortBuilder;
+import org.elasticsearch.search.sort.SortOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -82,5 +85,10 @@ public class SpringBootElstaticsearchApplicationTests {
             System.out.println(item.getUsername());
         });
     }
-    
+    @Test
+    public void searchBy(){
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+        NativeSearchQueryBuilder query = queryBuilder.withQuery(QueryBuilders.matchQuery("username", "熊亮"));
+    }
+
 }
