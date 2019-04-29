@@ -1,0 +1,8 @@
+server:
+  port: 8086
+spring:
+  data:
+    #es ≈‰÷√
+    elasticsearch:
+      cluster-name:  elasticsearch
+      cluster-nodes: 182.61.10.117:9300
