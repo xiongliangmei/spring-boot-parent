@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/spring-boot-shiro/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-elstaticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-activemq/pom.xml" />
       </list>
     </option>
   </component>
