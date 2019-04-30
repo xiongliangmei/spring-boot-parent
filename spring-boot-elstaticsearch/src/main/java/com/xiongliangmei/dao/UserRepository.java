@@ -49,27 +49,6 @@ public interface UserRepository extends ElasticsearchRepository<User,String>{
             " }")
     User SelectByUsername(String username);
 
-    @Query("{\n" +
 
-            " \"bool\": {\n" +
-
-            " \"must\": [\n" +
-
-            " {\n" +
-
-            " \"match\": {\n" +
-
-            " \"username\": \"?0\"\n" +
-
-            " }\n" +
-
-            " }\n" +
-
-            " ]\n" +
-
-            " }\n" +
-
-            " }")
-    User selectById(String id);
 
 }
