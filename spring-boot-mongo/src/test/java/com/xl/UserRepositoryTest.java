@@ -16,4 +16,7 @@ public class UserRepositoryTest extends SpringBootMongoApplicationTests {
 
     }
 
+    public void test(){
+
+    }
 }
