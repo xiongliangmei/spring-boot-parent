@@ -1,13 +1,8 @@
-package com.xiongliangmei;
+package com.xiongliang;
 
-import com.xiongliangmei.dao.UserRepository;
-import com.xiongliangmei.entity.User;
-import org.apache.lucene.search.Sort;
-import org.elasticsearch.index.query.QueryBuilder;
+import com.xiongliang.dao.UserRepository;
+import com.xiongliang.entity.User;
 import org.elasticsearch.index.query.QueryBuilders;
-import org.elasticsearch.index.query.WildcardQueryBuilder;
-import org.elasticsearch.search.sort.SortBuilder;
-import org.elasticsearch.search.sort.SortOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,9 +13,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.core.query.*;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.List;
-import java.util.stream.Stream;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

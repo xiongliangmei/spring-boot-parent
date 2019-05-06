@@ -1,6 +1,6 @@
-package com.xiongliangmei.dao;
+package com.xiongliang.dao;
 
-import com.xiongliangmei.entity.Post;
+import com.xiongliang.entity.Post;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
 public interface PostRepository  extends ElasticsearchRepository<Post,String> {

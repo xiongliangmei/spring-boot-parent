@@ -1,9 +1,7 @@
-package com.xiongliangmei.entity;
+package com.xiongliang.entity;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
-import org.springframework.data.elasticsearch.annotations.Field;
 
 import java.io.Serializable;
 

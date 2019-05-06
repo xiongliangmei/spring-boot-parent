@@ -1,14 +1,10 @@
-package com.xiongliangmei;
+package com.xiongliang;
 
-import com.xiongliangmei.dao.UserRepository;
-import com.xiongliangmei.entity.User;
-import org.elasticsearch.index.query.QueryBuilders;
+import com.xiongliang.dao.UserRepository;
+import com.xiongliang.entity.User;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
-import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 
 import java.util.List;
 

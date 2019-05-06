@@ -1,4 +1,4 @@
-package com.xiongliangmei.entity;
+package com.xiongliang.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

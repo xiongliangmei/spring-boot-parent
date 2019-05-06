@@ -1,4 +1,4 @@
-package com.xiongliangmei.config;
+package com.xiongliang.config;
 
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.mgt.SecurityManager;
