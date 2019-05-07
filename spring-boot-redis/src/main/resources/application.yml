@@ -12,3 +12,5 @@ spring:
       port: 6380
 server:
   port: 8086
+logging:
+  path: classpath:log4j.properties
