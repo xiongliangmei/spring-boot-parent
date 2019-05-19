@@ -38,11 +38,7 @@ public class Role extends BaseEntity{
     private String dataScope;
 
     @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name="MenuRole",joinColumns={@JoinColumn(name="roleId")},inverseJoinColumns={@JoinColumn(name="permissionId")})
+    @JoinTable(name="T_SSO_MENU_ROLE",joinColumns={@JoinColumn(name="roleId")},inverseJoinColumns={@JoinColumn(name="permissionId")})
     private List<Menu> permissions;
 
-    // 用户 - 角色关系定义;
-    @ManyToMany
-    @JoinTable(name="UserRole",joinColumns={@JoinColumn(name="roleId")},inverseJoinColumns={@JoinColumn(name="uid")})
-    private List<User> userInfo;// 一个角色对应多个用户
 }

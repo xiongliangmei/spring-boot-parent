@@ -2,6 +2,7 @@ package com.xiongliang.entity;
 
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.Proxy;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -41,8 +42,5 @@ public class Menu extends BaseEntity{
     private int isShow;
     private String permission;
 
-    @ManyToMany
-    @JoinTable(name="MenuRole",joinColumns={@JoinColumn(name="permissionId")},inverseJoinColumns={@JoinColumn(name="roleId")})
-    private List<Role> roles;
 
 }

@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://182.61.10.117:3306/shiro?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
+    url: jdbc:mysql://182.61.10.117:3306/sso_shiro_user?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false
     hikari:
       username: root
       password: Xiongliang2012@
@@ -11,3 +11,10 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+    database: mysql
+    properties:
+      hibernate:
+       dialect: org.hibernate.dialect.MySQL5Dialect
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5

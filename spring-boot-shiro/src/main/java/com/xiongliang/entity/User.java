@@ -61,7 +61,7 @@ public class User  extends BaseEntity{
     @Column(name = "login_flag")
     private boolean loginFlag;
     @ManyToMany(fetch = FetchType.EAGER) //立即从数据库加载
-    @JoinTable(name = "UserRole",joinColumns = {@JoinColumn(name = "uid")},inverseJoinColumns = {@JoinColumn(name = "roleId")})
+    @JoinTable(name = "T_SSO_USER_ROLE",joinColumns = {@JoinColumn(name = "uid")},inverseJoinColumns = {@JoinColumn(name = "roleId")})
     private List<Role> roleList;
 
 }
