@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="spring-boot-activemq" />
+        <module name="spring-boot-config" />
         <module name="spring-boot-elstaticsearch" />
         <module name="spring-boot-mongo" />
         <module name="spring-boot-redis" />
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="spring-boot-activemq" options="-parameters" />
+      <module name="spring-boot-config" options="-parameters" />
       <module name="spring-boot-elstaticsearch" options="-parameters" />
       <module name="spring-boot-mongo" options="-parameters" />
       <module name="spring-boot-redis" options="-parameters" />

@@ -1,4 +1,4 @@
-package com.xiongliang.dao;
+package com.xiongliang.repository;
 
 import com.xiongliang.entity.Post;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;

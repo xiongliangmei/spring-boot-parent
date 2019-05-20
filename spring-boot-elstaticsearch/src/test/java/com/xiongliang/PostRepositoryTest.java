@@ -1,6 +1,6 @@
 package com.xiongliang;
 
-import com.xiongliang.dao.PostRepository;
+import com.xiongliang.repository.PostRepository;
 import com.xiongliang.entity.Post;
 import org.elasticsearch.index.query.Operator;
 import org.elasticsearch.index.query.QueryBuilders;

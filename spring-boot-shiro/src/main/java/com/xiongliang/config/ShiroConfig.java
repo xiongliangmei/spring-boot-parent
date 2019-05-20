@@ -13,7 +13,7 @@ import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
 import java.util.Map;
 import java.util.Properties;
 
-@Configuration
+/*@Configuration*/
 public class ShiroConfig {
 
     /****
@@ -55,7 +55,7 @@ public class ShiroConfig {
 
         HashedCredentialsMatcher hashedCredentialsMatcher = new HashedCredentialsMatcher();
         hashedCredentialsMatcher.setHashAlgorithmName("md5");
-        hashedCredentialsMatcher.setHashIterations(2);
+        hashedCredentialsMatcher.setHashIterations(1024);
         return hashedCredentialsMatcher;
     }
 
@@ -66,6 +66,10 @@ public class ShiroConfig {
         return myShiroRealm;
     }
 
+    /***
+     * securityManger 配置
+     * @return
+     */
     @Bean
     public SecurityManager securityManager(){
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();

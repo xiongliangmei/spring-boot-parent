@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-activemq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-elstaticsearch" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mongo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-redis/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/xiongliang/controller/HomeController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/java/com/xiongliang/controller/UserInfoController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/403.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/index.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/login.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfo.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfoAdd.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfoDel.html" charset="GBK" />
     <file url="file://$PROJECT_DIR$/spring-boot-websocket" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
   </component>
 </project>

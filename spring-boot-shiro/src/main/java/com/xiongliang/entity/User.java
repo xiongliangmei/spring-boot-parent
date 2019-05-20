@@ -27,8 +27,8 @@ public class User  extends BaseEntity{
     @Column(name = "company_id",length = 56)
     private String companyId;
     //登陆名
-    @Column(name = "login_name",length = 255)
-    private String loginName;
+    @Column(name = "username",length = 255)
+    private String username;
     //密码
     @Column(name = "password",length = 255)
     private String password;

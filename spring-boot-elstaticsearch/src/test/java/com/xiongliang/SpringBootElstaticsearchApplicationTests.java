@@ -1,6 +1,6 @@
 package com.xiongliang;
 
-import com.xiongliang.dao.UserRepository;
+import com.xiongliang.repository.UserRepository;
 import com.xiongliang.entity.User;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.junit.Test;

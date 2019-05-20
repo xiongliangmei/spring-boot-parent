@@ -1,4 +1,4 @@
-package com.xiongliang.redis;
+/*package com.xiongliang.redis;
 
 import com.xiongliang.SpringBootRedisApplicationTests;
 import com.xiongliang.entity.Author;
@@ -20,9 +20,9 @@ public class Test extends SpringBootRedisApplicationTests {
 
     @org.junit.Test
     public void test(){
-  /*     stringRedisTemplate.opsForValue().set("aaa","1111");*/
-/*        Assert.assertEquals("111",stringRedisTemplate.opsForValue().get("aaa"));*/
-/*        System.out.println(stringRedisTemplate.opsForValue().get("aaa"));*/
+  *//*     stringRedisTemplate.opsForValue().set("aaa","1111");*//*
+*//*        Assert.assertEquals("111",stringRedisTemplate.opsForValue().get("aaa"));*//*
+*//*        System.out.println(stringRedisTemplate.opsForValue().get("aaa"));*//*
         Author author = new Author();
         author.setId("1");
         author.setName("熊亮");
@@ -48,4 +48,4 @@ public class Test extends SpringBootRedisApplicationTests {
             System.out.println("exists is false");
         }
     }
-}
+}*/
