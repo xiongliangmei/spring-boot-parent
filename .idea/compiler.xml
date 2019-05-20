@@ -14,6 +14,7 @@
         <module name="spring-boot-mongo" />
         <module name="spring-boot-redis" />
         <module name="spring-boot-shiro" />
+        <module name="spring-boot-swagger2" />
         <module name="spring-boot-websocket" />
       </profile>
     </annotationProcessing>
@@ -22,12 +23,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="demo" options="-parameters" />
       <module name="spring-boot-activemq" options="-parameters" />
-      <module name="spring-boot-apidoc" options="-parameters" />
+      <module name="spring-boot-apidoc" options="" />
       <module name="spring-boot-config" options="-parameters" />
       <module name="spring-boot-elstaticsearch" options="-parameters" />
       <module name="spring-boot-mongo" options="-parameters" />
       <module name="spring-boot-redis" options="-parameters" />
       <module name="spring-boot-shiro" options="-parameters" />
+      <module name="spring-boot-swagger2" options="-parameters" />
       <module name="spring-boot-websocket" options="-parameters" />
     </option>
   </component>

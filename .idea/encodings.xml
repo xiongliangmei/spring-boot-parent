@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-activemq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-apidoc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-apidoc/src/main/asciidoc" charset="GBK" />
     <file url="file://$PROJECT_DIR$/spring-boot-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-config/src/main/resources/application-dev.yml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/spring-boot-config/src/main/resources/application-dev.yml" charset="GBK" />
@@ -23,6 +24,7 @@
     <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfo.html" charset="GBK" />
     <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfoAdd.html" charset="GBK" />
     <file url="file://$PROJECT_DIR$/spring-boot-shiro/src/main/resources/templates/userInfoDel.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/spring-boot-swagger2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-websocket" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
