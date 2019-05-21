@@ -15,6 +15,7 @@
         <module name="spring-boot-redis" />
         <module name="spring-boot-shiro" />
         <module name="spring-boot-swagger2" />
+        <module name="spring-boot-tasks" />
         <module name="spring-boot-websocket" />
       </profile>
     </annotationProcessing>
@@ -30,6 +31,7 @@
       <module name="spring-boot-redis" options="-parameters" />
       <module name="spring-boot-shiro" options="-parameters" />
       <module name="spring-boot-swagger2" options="-parameters" />
+      <module name="spring-boot-tasks" options="-parameters" />
       <module name="spring-boot-websocket" options="-parameters" />
     </option>
   </component>
